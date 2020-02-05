@@ -99,6 +99,10 @@ a.pull-request-title:hover {
   margin-left: 10px;
 }
 
+.details-container, .votes-container {
+  line-height: 25px;
+}
+
 .tag-container {
   display: inline-block;
 }
