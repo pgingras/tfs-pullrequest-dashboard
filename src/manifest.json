@@ -1,15 +1,15 @@
 {
     "manifestVersion": 1,
     "id": "tfs-pullrequest-dashboard",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "name": "Pull Request Dashboard",
     "description": "A pull request dashboard for Visual Studio Team Services/Team Foundation Services.",
-    "publisher": "ryanstedman",
+    "publisher": "AddEnergie-PhilippeGingras",
     "links": {
-        "getstarted": {"uri": "https://github.com/rstedman/tfs-pullrequest-dashboard"},
-        "learn": {"uri": "https://github.com/rstedman/tfs-pullrequest-dashboard"},
-        "license": {"uri": "https://github.com/rstedman/tfs-pullrequest-dashboard/blob/master/LICENSE"},
-        "support": {"uri": "https://github.com/rstedman/tfs-pullrequest-dashboard/issues"}
+        "getstarted": {"uri": "https://github.com/pgingras/tfs-pullrequest-dashboard"},
+        "learn": {"uri": "https://github.com/pgingras/tfs-pullrequest-dashboard"},
+        "license": {"uri": "https://github.com/pgingras/tfs-pullrequest-dashboard/blob/master/LICENSE"},
+        "support": {"uri": "https://github.com/pgingras/tfs-pullrequest-dashboard/issues"}
     },
     "repository": {
         "type": "git",
@@ -30,7 +30,7 @@
     ],
     "targets": [{ "id": "Microsoft.VisualStudio.Services" }],
     "icons": {"default": "assets/images/logo.png"},
-    "categories": ["Code"],
+    "categories": ["Azure Repos"],
     "galleryFlags": ["Public"],
     "contributions": [
         {
@@ -42,7 +42,7 @@
                 "name": "Pull Request Dashboard",
                 "order": 99,
                 "uri": "index.html",
-                "icon": { 
+                "icon": {
                     "light": "assets/images/icon-light.png",
                     "dark": "assets/images/icon-dark.png"
                 }
